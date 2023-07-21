@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #b9adad;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+}
+
+#app {
+  max-width: 500rem;
+  padding: 0 2rem;
+  margin-top: 11.5rem;
+}
+
+header {
+  display: flex;
+  width: 112rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+input {
+  width: 43rem;
+  background-color: #06181C;
+  border-radius: 0.5rem;
+  padding: 1.6rem;
+  border: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0,);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.favoriteButton {
+  padding: 1.2rem 3.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #065E7C;
+  gap: 0.8rem;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.setUser {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 8.7rem;
+  width: 112rem;
+  border-collapse: separate;
+  border: 2px solid #4A808C;
+  border-radius: 1.2rem; 
+}
+
+tr th {
+  background-color: #092D38;
+  padding: 1.6rem 2.4rem 1.6rem 4.0rem;
+  color: white;
+  font-size: 2rem;
+  line-height: 160%;
+  text-align: left;
+  
+}
+
+thead tr th:first-child {
+  border-radius: 1.2rem 0 0 0;
+  border-right: none;
+  border-bottom: none;
+}
+
+
+tr th:last-child {
+  border-radius: 0 1.2rem 0 0;
+}
+
+tr td {
+  padding: 1.6rem 2.4rem 1.6rem 4.0rem;
+  color: white;
+  font-weight: 700;
+  height: 10.4rem;
+}
+
+tbody tr {
+  background: #06181C;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgba(6, 22, 27, 0.50);
+}
+
+td:last-child {
+  border-radius: 0 0 1.2rem 0;
+}
+
+tr:last-child .user {
+  border-radius: 0 0 0 1.2rem;
+}
+
+.maior {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  color: white;
+}
+
+.maior img {
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 50%;
+}
+
+.maior span {
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.repositories {
+  width: 21.8rem
+}
+
+.followers {
+  width: 22rem;
+}
+
+.remove {
+  width: 17.8rem;
+}
+
+.remove button {
+  background: none;
+  border: none;
+  color: #F75A68;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.maior a {
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+}
